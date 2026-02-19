@@ -1,0 +1,6 @@
+#!/bin/bash
+i=2
+until [$i -ge 5]
+then 
+echo "jai, $i "
+done
