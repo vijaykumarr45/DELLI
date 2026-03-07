@@ -1,0 +1,5 @@
+-name: my first ansible playbook
+hosts: 192.168.10.98
+tasks: 
+ -name: print hello world
+ module.builtin.debug: 
