@@ -1,5 +1,7 @@
+---
 -name: my first ansible playbook
-hosts: 192.168.10.98
+hosts: hell
 tasks: 
  -name: print hello world
  module.builtin.debug: 
+ msg: "OM NAMO NARAYANAYA"
